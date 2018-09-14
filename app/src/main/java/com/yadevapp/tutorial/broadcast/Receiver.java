@@ -13,6 +13,6 @@ public class Receiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         Log.d(TAG, "onReceive: ");
         String textToSend = intent.getStringExtra("text");
-        Toast.makeText(context, textToSend, Toast.LENGTH_LONG);
+        Toast.makeText(context, textToSend, Toast.LENGTH_LONG).show();
     }
 }
