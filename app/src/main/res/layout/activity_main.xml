@@ -8,20 +8,8 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-       <EditText
-           android:id="@+id/activity_main_edittext"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content" />
-
-        <Button
-            android:id="@+id/activity_main_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Send broadcast"/>
-    </LinearLayout>
+        android:text="waiting for broadcast"/>
 </LinearLayout>
