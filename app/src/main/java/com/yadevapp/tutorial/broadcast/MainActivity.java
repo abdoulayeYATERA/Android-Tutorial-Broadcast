@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "onClick: ");
                 String textToSend = mEditText.getText().toString();
                 Intent broadcastIntent = new Intent("com.yadevapp.tutorial.broadcast.intent.action.send");
+                broadcastIntent.setFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
                 broadcastIntent.putExtra("text", textToSend);
                 sendBroadcast(broadcastIntent);
             }
