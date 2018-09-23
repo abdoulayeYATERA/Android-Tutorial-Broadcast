@@ -16,10 +16,10 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="com.yadevapp.tutorial.broadcast.Receiver">
+        <!--receiver android:name="com.yadevapp.tutorial.broadcast.Receiver">
             <intent-filter>
                 <action android:name="com.yadevapp.tutorial.broadcast.intent.action.send"/>
             </intent-filter>
-        </receiver>
+        </receiver-->
     </application>
 </manifest>
